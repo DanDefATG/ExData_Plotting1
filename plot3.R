@@ -25,7 +25,7 @@ with(electric_power_consumption, plot(x=DateTime, y=Sub_metering_1,
 with(electric_power_consumption,lines(x=DateTime, y=Sub_metering_2, col = "red", type= "l" ))
 with(electric_power_consumption,lines(x=DateTime, y=Sub_metering_3, col = "blue", type= "l" ))
           
-legend("topright",legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),lty=c(1,2,3),col=c("black","red","blue"),bg="white",lwd=2,cex = 0.75,  bty="n")
+legend("topright",legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),lty=c(1,2,3),col=c("black","red","blue"),bg="white",lwd=1,cex = 0.75,  bty="n")
           
 grid()
 title("Hourly Energy Sub metering")
