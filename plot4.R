@@ -36,7 +36,7 @@ with(electric_power_consumption, plot(x=DateTime, y=Sub_metering_1,
 with(electric_power_consumption,lines(x=DateTime, y=Sub_metering_2, col = "red", type= "l" ))
 with(electric_power_consumption,lines(x=DateTime, y=Sub_metering_3, col = "blue", type= "l" ))
 
-legend("topright",legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),col=c("black","red","blue"),lty=c(1,2,3),lwd=1,
+legend("topright",legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),col=c("black","red","blue"),lty=1,lwd=1,
        cex = 0.75,  bty="n")
 
 grid()
